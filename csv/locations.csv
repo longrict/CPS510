@@ -1,0 +1,16 @@
+location_number,location_name,phone_number,country,city,province,postal_code,street_address
+1,CTOQ,416-123-1234,Canada,Toronto,Ontario,M5A1A1,123 Queen St W
+2,CTOK,416-123-5678,Canada,Toronto,Ontario,M5B2B2,456 King St E
+3,CMOL,416-321-1234,Canada,Mississauga,Ontario,L5M3C3,789 Lakeshore Blvd
+4,CCAM,647-321-1234,Canada,Calgary,Alberta,T2P4P4,101 Mountain Rd
+5,CVBCO,647-123-5678,Canada,Vancouver,British Columbia,V6B5B5,112 Ocean Blvd
+6,CCED,780-987-6543,Canada,Edmonton,Alberta,T5J2T2,150 Jasper Ave NW
+7,CMON,514-321-4321,Canada,Montreal,Quebec,H3B3B3,200 Saint Catherine St W
+8,COOW,613-567-4321,Canada,Ottawa,Ontario,K1A1A1,350 Wellington St
+9,CHFC,902-987-1234,Canada,Halifax,Nova Scotia,B3J3J3,99 Barrington St
+10,CWPG,204-654-3210,Canada,Winnipeg,Manitoba,R3C2C2,250 Portage Ave
+11,CSRJ,506-234-5678,Canada,Saint John,New Brunswick,E2L1A1,60 King St
+12,CLDN,807-876-5432,Canada,London,Ontario,N6A5B6,175 Dundas St
+13,CSOU,705-654-7890,Canada,Sudbury,Ontario,P3E1C8,400 Elm St
+14,CCQG,418-321-5678,Canada,Quebec City,Quebec,G1R1R1,500 Grande Allée E
+15,CWDS,867-987-6543,Canada,Whitehorse,Yukon,Y1A1A1,700 Main St

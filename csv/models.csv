@@ -1,0 +1,51 @@
+model_number,model_year,model_name,manufacturer,number_of_seats
+1,2020,Corolla,Toyota,5
+2,2021,Civic,Honda,5
+3,2022,Model 3,Tesla,5
+4,2019,Mustang,Ford,4
+5,2020,Cherokee,Jeep,5
+6,2018,Accord,Honda,5
+7,2020,Camry,Toyota,5
+8,2019,Rav4,Toyota,5
+9,2022,Escape,Ford,5
+10,2021,Explorer,Ford,7
+11,2020,Altima,Nissan,5
+12,2023,Sentra,Nissan,5
+13,2021,Santa Fe,Hyundai,5
+14,2022,Tucson,Hyundai,5
+15,2020,Sorento,Kia,7
+16,2021,Sportage,Kia,5
+17,2019,Optima,Kia,5
+18,2022,Highlander,Toyota,7
+19,2023,Pathfinder,Nissan,7
+20,2020,Suburban,Chevrolet,8
+21,2021,Tahoe,Chevrolet,7
+22,2022,Impala,Chevrolet,5
+23,2018,Malibu,Chevrolet,5
+24,2023,Fusion,Ford,5
+25,2021,Mazda3,Mazda,5
+26,2019,Mazda6,Mazda,5
+27,2022,CX-5,Mazda,5
+28,2023,CX-9,Mazda,7
+29,2020,Forester,Subaru,5
+30,2021,Outback,Subaru,5
+31,2022,Ascent,Subaru,7
+32,2019,Wrangler,Jeep,5
+33,2020,Compass,Jeep,5
+34,2021,Gladiator,Jeep,5
+35,2022,Telluride,Kia,7
+36,2023,Palisade,Hyundai,7
+37,2020,Atlas,Volkswagen,7
+38,2021,Tiguan,Volkswagen,5
+39,2022,Passat,Volkswagen,5
+40,2023,Jetta,Volkswagen,5
+41,2019,S-Class,Mercedes-Benz,5
+42,2020,E-Class,Mercedes-Benz,5
+43,2021,C-Class,Mercedes-Benz,5
+44,2022,A4,Audi,5
+45,2023,Q7,Audi,7
+46,2018,Q5,Audi,5
+47,2020,A6,Audi,5
+48,2021,Q3,Audi,5
+49,2022,Range Rover,Land Rover,5
+50,2023,Defender,Land Rover,5
