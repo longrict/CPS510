@@ -14,26 +14,20 @@ WHERE
     car.availability = 1; -- 1 means available
 
 
-CREATE VIEW high_earning_reservations AS
+CREATE VIEW employee_performance AS
 SELECT 
-    reservation.reservation_id,
-    customer.first_name,
-    customer.last_name,
-    car.registration_number,
-    model.model_name,
-    billing.car_rental_fees,
-    billing.car_late_fees,
-    billing.pc_fees
+    employees.employee_id,
+    employees.first_name,
+    employees.last_name,
+    employees.position,
+    location.location_name,
+    COUNT(reservation.reservation_id) AS total_reservations
 FROM 
-    reservation
-JOIN customer ON reservation.license_number = customer.license_number
-JOIN car ON reservation.registration_number = car.registration_number
-JOIN model ON car.model_number = model.model_number
-JOIN billing ON reservation.reservation_id = billing.reservation_id
-WHERE 
-    billing.car_rental_fees > 500.00 -- Filter for high-earning rentals
+    employees
+JOIN location ON employees.location_number = location.location_number
+LEFT JOIN reservation ON reservation.pickup_location = location.location_number
+GROUP BY 
+    employees.employee_id, employees.first_name, employees.last_name, employees.position, location.location_name
 ORDER BY 
-    billing.car_rental_fees DESC;
-    
-    
+    total_reservations DESC;
 
